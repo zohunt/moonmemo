@@ -100,8 +100,8 @@ h1 {
   margin-bottom: 1rem;
   text-shadow:
     0 0 5px #db6c79,
-    0 0 10px #28666e,
-    0 0 20px #db6c79;
+    0 0 10px #f4e76e,
+    0 0 20px #28666e;
 }
 
 .moon-phase {
@@ -164,6 +164,6 @@ button:hover {
 @media (min-width: 768px) {
   textarea {
     width: 85%;
-    margin-left: 8%;
+    margin-left: 5%;
   }
 }
