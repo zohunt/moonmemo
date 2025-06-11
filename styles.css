@@ -150,8 +150,11 @@ button:hover {
   font-size: 0.9rem;
   color: #aaa;
 }
+
 @media (min-width: 768px) {
   .container {
-    transform: translateX(-5%);
+    margin-left: calc(50% - 300px - 40px);
+    margin-right: auto;
+    transform: none;
   }
 }
