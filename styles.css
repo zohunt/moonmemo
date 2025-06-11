@@ -152,9 +152,8 @@ button:hover {
 }
 
 @media (min-width: 768px) {
-  .container {
-    margin-left: calc(50% - 300px - 40px);
-    margin-right: auto;
-    transform: none;
+  textarea {
+    width: 85%;
+    margin-left: 8%;
   }
 }
