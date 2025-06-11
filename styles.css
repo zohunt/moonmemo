@@ -160,6 +160,23 @@ button:hover {
   font-size: 0.9rem;
   color: #aaa;
 }
+.star {
+  position: fixed;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: twinkle 2s infinite alternate;
+  z-index: -1;
+}
+
+.shooting-star {
+  position: fixed;
+  width: 2px;
+  height: 80px;
+  background: linear-gradient(45deg, #fff, transparent);
+  opacity: 0.8;
+  z-index: -1;
+}
 
 @media (min-width: 768px) {
   textarea {
