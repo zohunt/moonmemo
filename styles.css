@@ -170,12 +170,16 @@ button:hover {
 }
 
 .shooting-star {
-  position: fixed;
-  width: 2px;
-  height: 80px;
-  background: linear-gradient(45deg, #fff, transparent);
-  opacity: 0.8;
-  z-index: -1;
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(90deg, white, transparent);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: rotate(45deg);
+  z-index: 2;
+  pointer-events: none;
 }
 
 @media (min-width: 768px) {
