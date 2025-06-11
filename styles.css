@@ -164,6 +164,6 @@ button:hover {
 @media (min-width: 768px) {
   textarea {
     width: 85%;
-    margin-left: 5%;
+    margin-left: 3%;
   }
 }
