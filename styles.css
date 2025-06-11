@@ -184,11 +184,10 @@ button:hover {
 
 /* Optional adjustment for larger screens */
 @media (min-width: 768px) {
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 2rem;
-    padding-right: 2rem;
+  textarea {
+    margin-left: 5%;
+    width: 90%;
   }
 }
+
 
