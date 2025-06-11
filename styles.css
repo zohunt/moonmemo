@@ -185,7 +185,7 @@ button:hover {
 /* Optional adjustment for larger screens */
 @media (min-width: 768px) {
   textarea {
-    margin-left: 5%;
+    margin-left: 3%;
     width: 90%;
   }
 }
